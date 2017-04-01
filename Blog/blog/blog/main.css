@@ -19,3 +19,26 @@ h1.logo
     text-align: center;
 }
 
+nav{
+    background-color: #1c47b2;
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 40px;
+    line-height: 200%;
+}
+
+.menu > li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #02ab42;
+}
+.menu > li:first-child{
+    border-left: 1px dashed #02ab42;
+}
